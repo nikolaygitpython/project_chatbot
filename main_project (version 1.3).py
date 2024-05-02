@@ -29,7 +29,7 @@ def get_on_start_kb(): # Функция для формирования клав
     button_hands = KeyboardButton(text=ButtonNext.HANDS) # Объявление кнопки
     button_legs =KeyboardButton(text=ButtonNext.LEGS) # Объявление кнопки
     # - - - - - - Собственно создание клавиатуры
-    button_first_row = [button_hello, button_help] # Создание массива кнопк
+    button_first_row = [button_hello, button_help] # Создание массива кнопок
     button_second_row = [button_hands, button_legs] # Создание массива кнопок
     markup = ReplyKeyboardMarkup (keyboard=[button_first_row, button_second_row]) # Создание клавиатуры
     return markup

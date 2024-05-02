@@ -10,7 +10,7 @@ from aiogram.enums import ParseMode
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton # Модули для формирования клавиатуры
 
 # - - - - - - - Объявление констант - - - - - - - - - - -
-TOKEN = "6745460223:AAFDVZyaExES6jSLs0vorBgsz5HrgqKHN2Y" # уникальный номер телеграм-бота. держать в секрете
+TOKEN = " " # 
 bot = Bot (token=TOKEN)
 dp = Dispatcher()
 

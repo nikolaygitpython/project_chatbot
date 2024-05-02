@@ -74,8 +74,6 @@ async def handle_quont(message: types.Message):
     text = "Колличество товара: 4"
     await message.answer(text=text)
 
-
-
 @dp.message()
 async def echo_message(message: types.Message):
   #  await message.answer(text="Wait a second...")
@@ -94,9 +92,6 @@ async def echo_message(message: types.Message):
 async def main():
     logging.basicConfig(level=logging.INFO)
     await dp.start_polling (bot)
-
-
-
 
 if (__name__ == "__main__"):
     asyncio.run (main())
